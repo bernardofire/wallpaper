@@ -1,9 +1,9 @@
 class Wallpaper
   def initialize(path)
-    @path = path
+    @path = "file://" + File.expand_path(path)
   end
 
   def set
-    `gsettings set org.gnome.desktop.background picture-uri file://#{path}`
+    `gsettings set org.gnome.desktop.background picture-uri #{path}`
   end
 end
