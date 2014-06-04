@@ -1,7 +1,8 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "Wallpaper" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+  it "expands the given path" do
+    wall = Wallpaper.new 'images/type_racer.png'
+    expect(wall.path).to be_eql('file://' + File.expand_path('images/type_racer.png'))
   end
 end
