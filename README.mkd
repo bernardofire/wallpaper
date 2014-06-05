@@ -8,11 +8,11 @@ Using
 
 To change your wallpaper, you just need to give the path to the "wallpaper"
 
-`wallpaper Pictures/foo.jpg`
+`$ wallpaper Pictures/foo.jpg`
 
 To set the default wallpaper, give any random string to the "wallpaper"
 
-`wallpaper foobar`
+`$ wallpaper foobar`
 
 
 Contributing to wallpaper
