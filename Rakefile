@@ -13,12 +13,11 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "wallpaper"
   gem.homepage = "http://github.com/bernardofire/wallpaper"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Easy way to change your Linux wallpaper}
+  gem.description = %Q{Easy way to change your Linux wallpaper from command line}
   gem.email = "bernardo.fire@gmail.com"
   gem.authors = ["Bernardo B. Marques"]
   # dependencies defined in Gemfile
