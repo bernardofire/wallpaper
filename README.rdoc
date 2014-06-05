@@ -1,9 +1,20 @@
-= wallpaper
+= Wallpaper
 
-Description goes here.
+A gem to help you change your Linux wallpaper from command line.
+
+== Using
+
+To change your wallpaper, you just need to give the path to the "wallpaper"
+
+`wallpaper Pictures/foo.jpg`
+
+To set the default wallpaper, give any random string to the "wallpaper"
+
+`wallpaper foobar`
+
 
 == Contributing to wallpaper
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
